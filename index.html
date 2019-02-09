@@ -4,25 +4,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-        <!-- import bootstrap4 -->
+    
+    <!-- import bootstrap4 -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="main.css">
+    
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Sarabun|Staatliches" rel="stylesheet">
+    
+    
     <title>Movie Thetre</title>
 </head>
 <body>
 
+    
+    <nav class="navbar navbar-expand-lg fixed-top text-uppercase" id="mainNav">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+        
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto ml-auto">                            
+                            <button type="button" class="btn btn-outline-secondary mr-2">LOGIN</button>
+                            <button type="button" class="btn btn-outline-secondary">SIGNUP</button>
+
+            </ul>
+        </div>
+    </nav>
+    
+    
+    <div class="jumbotron"></div>
+    <div class="container" id="content">
+        
+        <div class="row" id="detailMovie">
+            
+            <div class="col-4 mt-3 mb-3 p-5">
+                <h2 class="mb-0 pb-0">Captain America</h2>
+                <small class="mt-0">วันที่เข้าฉาย: 06/03/19</small>
+                <img src="profile.jpg" alt="" width="100%" height="auto" class="mt-2">
+                <button type="button" class="btn btn-warning btn-block mt-1">Buy Ticket
+                    
+                    <img src="pic/ticket.png" alt="" width="28px" class="ml-1 mb-1">
+                    
+                </button>
+            </div>
+            
+            <div class="col-4 mt-3 mb-3 p-5">
+                <h2 class="mb-0 pb-0">Captain America</h2>
+                <small class="mt-0">วันที่เข้าฉาย: 06/03/19</small>
+                <img src="profile.jpg" alt="" width="100%" height="auto" class="mt-2">
+                <button type="button" class="btn btn-warning btn-block mt-1">Buy Ticket
+                    
+                    <img src="pic/ticket.png" alt="" width="28px" class="ml-1 mb-1">
+                    
+                </button>
+            </div>
+            
+            <div class="col-4 mt-3 mb-3 p-5">
+                <h2 class="mb-0 pb-0">Captain America</h2>
+                <small class="mt-0">วันที่เข้าฉาย: 06/03/19</small>
+                <img src="profile.jpg" alt="" width="100%" height="auto" class="mt-2">
+                <button type="button" class="btn btn-warning btn-block mt-1">Buy Ticket
+                    
+                    <img src="pic/ticket.png" alt="" width="28px" class="ml-1 mb-1">
+                    
+                </button>
+            </div>
+            
+            
+            
+        </div>
+    </div>
+    
+    <!-- The expanding grid (hidden by default) -->
+<div id="b1" class="containerTab" style="display:none;background:green">
+        <!-- If you want the ability to close the container, add a close button -->
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+        <h2>Box 1</h2>
+        <p>Lorem ipsum..</p>
+      </div>
+      
+      <div id="b2" class="containerTab" style="display:none;background:blue">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+        <h2>Box 2</h2>
+        <p>Lorem ipsum..</p>
+      </div>
+      
+      <div id="b3" class="containerTab" style="display:none;background:red">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+        <h2>Box 3</h2>
+        <p>Lorem ipsum..</p>
+      </div>
 
 
+ 
 
-
-
+  
     
     <!--     import im[portant]SCript -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-        
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    
     
 </body>
 </html>

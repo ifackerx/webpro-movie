@@ -1,0 +1,18 @@
+
+body {
+    /* background-color: black; */
+    font-family: 'Sarabun', sans-serif;
+
+}
+
+#content {
+    background-color: antiquewhite;
+}
+
+#mainNav {
+    background-color: lightgray;
+}
+
+.jumbotron {
+    background-color: black;
+}
